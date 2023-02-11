@@ -9,7 +9,7 @@ public interface JSONPlaceholderAPI {
     }
 
     @GET("posts")
-    Call<List<Photos>> getPosts();
+    Call<List<Post>> getPosts();
 
     @GET("photos")
     Call<List<Photos>> getPhotos();
